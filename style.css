@@ -1,1 +1,192 @@
-@import url(assets/styles/global.css);
+@import url(assets/global.css);
+
+/* Estilo para cabeçalho */
+#cabecalho{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    padding: 20px;
+}
+
+.cabecalho_menu{
+    width: 100%;
+    max-width: 1255px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imagem_cabecalho {
+    width: 130px;
+    height: 30px;
+    margin-top: 18px;
+}
+
+.menu_lista{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 10px
+
+}
+
+.menu_lista a {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.20rem;
+}
+
+.botao_cabecalho{
+    width: 180px;
+    height: 64px;
+    margin-left: 3%; 
+    background-color: #4CAF4F;
+    border: none;
+    border-radius: 4%;
+    color: #fdfdfd;
+    font-weight: 100;
+    font-size: 20px;
+}
+/*Fim estilo cabeçalho  */
+
+/* ----------------------------------------------------------------------- */
+
+/* Começo ínicio MAIN*/
+#inicio{
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+
+}
+
+.lado_esquerdo_titulo{
+    font-size: 60px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    color: #4d4d4d;
+    margin-bottom: 0;
+}
+.lado_esquerdo_titulo02{
+    font-size: 60px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    color: #4CAF4F;
+    margin-top: 0;
+}
+
+.lado_esquerdo h4{
+    margin-top: 3%;
+    color: gray;
+    font-weight: 200;
+}
+
+.lado_direito{
+    margin-left: 5%;
+    width: 130px;
+}
+
+.lado_direito_imagem{
+    height: 20%;
+    width: 200%;
+}
+
+/* Fim MAIN */
+
+/* --------------------------------------------------------------- */
+
+/* Inicio section OUR CLIENTS */
+.botao{
+    width:130px;
+    height: 50px;
+    margin-top:5%;
+    color: #fdfdfd;
+    background-color: #4CAF4F;
+    border-radius: 4%;
+    border: none;
+}
+
+.quarta_sessao {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+.quarta_sessao h1{
+    margin-left: 15%;
+    color:#4d4d4d;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.quarta_sessao h4 {
+    display: flex;
+    font-weight: 100;
+    color: gray;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+
+.sesao_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.sesao_logo img{
+    width: 13%;
+}
+
+/* Fim section OUR CLIENTS */
+
+/* ------------------------------------------------------ */
+
+/* Estilo para o rodapé */
+.footer {
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer img{
+    width: 60%;
+}
+
+.footer li{
+   margin-top: 15px;
+   list-style: none;
+}
+.footer div {
+    text-decoration: none;
+    padding: 40px;
+}
+
+.footer p {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 15%;
+}
+
+.input input{
+    background-color: #89939E;
+    color: #d01515;
+    width: 200px;
+    height: 25px;
+    margin-left: 18%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10%;
+}
