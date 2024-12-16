@@ -1,4 +1,5 @@
-
+@import url(assets/styles/global.css);
+@import url(assets/styles/pro.css);
 @import url(assets/styles/global.css);
 @import url(assets/styles/main.css);
 @import url(assets/global.css);
@@ -193,3 +194,4 @@
     border: none;
     margin-top: 10%;
 }
+

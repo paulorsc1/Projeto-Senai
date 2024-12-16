@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*Início section*/
+#section_one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    gap: 50px;
+}
+
+.titulo_principal {
+   margin: 0 auto; 
+   font-size: 2.5rem;
+   color: grey;
+   font-family: "Inter", sans-serif;
+   margin-left: 60px;
+   height: 10px;
+}
+
+.titulo_principal h1{
+    margin: auto;
+}
+
+.titulo01 {
+    border: 5px solid darkblue;
+    width: 80%;
+}
+
+
+.titulo01 p{
+    margin: 0 auto;
+    width: 70%;
+    height: 20vh;
+    font-size: 1rem;
+    margin-top: 70px;
+    text-align: justify;
+    color: grey;
+    font-family: "Inter", sans-serif;
+    margin-left: 60px;
+}
+
+
+.image_logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.image_logo{
+    width: 40%;
+    height: 80%;
+    border: 5px solid red;
+}
+
+.button{
+    margin-bottom: 50px;
+}
+
+.button button{
+    width: 20%;
+    height: 60px;
+    border-radius: 7px;
+    background-color: #4CAF4F;
+    color: aliceblue;
+    border: none;
+    margin-left: 62px;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    margin-top: 50px;
+}
+
+/*Fim section*/
+
+
+/*Início da sectiom two*/
+.section_two{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70vh;
+}
+
+.second_part{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.paragrafo01{
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.paragrafo01 p{
+    font-size: 1.1rem;
+    font-family: "Inter", sans-serif;
+    color: gray;
+    justify-content: center;
+    text-align: justify;
+}
+
+.image_logo_two{
+    margin-left: 9%;
+}
+
+.image_logo_two img{
+    width: 500px;
+}
+
+.titulo02{
+    margin-top: 15px;
+}
+
+.titulo02 li{
+    list-style: none;
+    color: gray;
+    font-weight: 100;
+}
+
+.titulo02 h3{
+    color: #4CAF4F;
+    font-size: 1.3rem;
+}
+
+.image{
+    display: flex;
+    gap: 35px;
+    margin-top: 15px;
+}
+
+.image img{
+    width: 4%;
+}
+
+.image p{
+   font-size: 1.2rem;
+   padding: 15px;
+   font-family: "Inter", sans-serif;
+   color: #4CAF4F;
+}
+/*Fim da sectiom two*/
+
+/*Responsividade*/
+@media(max-width:1280px){
+    #section_one{
+
+    }
+
+    .titulo_principal{
+        font-size: initial;
+        font-size: 1.5rem;
+    }
+
+    .titulo01 p{
+        font-size: 0.8rem;
+        width: 70%;
+        text-align: justify;
+    }
+}
